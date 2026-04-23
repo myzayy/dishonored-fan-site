@@ -3,7 +3,7 @@
 A responsive multi-page website dedicated to the "Dishonored" game universe. This project was built to demonstrate front-end development skills, including responsive layout design, UI/UX styling, and interactive JavaScript functionality.
 
 ## Live Demo
-[View the Live Project here](GITHUB_PAGES)
+[View the Live Project here](https://myzayy.github.io/dishonored-fan-site/)
 
 ## Tech Stack
 * **HTML5 & CSS3** – Semantic structure and custom styling.
