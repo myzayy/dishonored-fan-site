@@ -1,0 +1,167 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../img/img_background.jpg');
+    background-size: cover;
+    padding-top: 68px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* width: 100%; */
+}
+
+.logo {
+    height: 40px;
+}
+
+.navigation .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.main-content {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    
+}
+
+.info-image {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    /* width: 30%; */
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.info-text {
+    flex: 2;
+    font-size: 16px;
+}
+
+.content-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: large;
+    gap: 20px;
+    
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.footer {
+    
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    /* width: 100%; */
+    margin-top: 50px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.contact-list li {
+    margin: 5px 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph {
+    margin-left: 2%;
+}
+b {
+    color: #058928;
+}
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #08a732;
+}
+
+.game-description {
+    padding: 30px;
+}
+table {
+    width: 50%;
+    /* margin: 20px auto; */
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 2px;
+    border: 1px solid #ebebeb;
+    
+    
+}
+th {
+    background-color: #1f2123;
+}
+td {
+    background-color: #313131;
+}
